@@ -5,10 +5,11 @@
 ​		一键信息收集项目,主要功能为自动收集域名的ICP备案信息,whois信息,通过爆破收集子域名信息，收集主域名和子域名的c段网络端口/主机信息。
 
 - 支持版本：![](https://img.shields.io/badge/python-3.x-blue)
-- 支持平台：![](https://img.shields.io/badge/platform-windows-green)![](https://img.shields.io/badge/platform-linux-brightgreen)
+- 支持平台：![](https://img.shields.io/badge/platform-windows-green) ![](https://img.shields.io/badge/platform-linux-brightgreen) 
 - 安装要求：Linux下需要nodejs和nmap的支持，windows下仅需nmap支持。
 
 注意事项：
+
 1.软件运行需要网络支持，请勿断网。
 2.在linux环境下运行完成后可能会导致shell的混乱。
 3.本项目采用了多线程，性能消耗较大，建议cpu不小于2核，运行内存大于2G。
