@@ -139,7 +139,6 @@ def save_subdomain_data(data,filename):
     wb.save(filename)
 
 
-
 def handler(signum, frame):
     exit()
     global is_exit
