@@ -98,5 +98,5 @@ if __name__ == '__main__':
                         last_subdomain_list = compare_ip_domain(filename, last_subdomain_list)
             print('所有扫描完成！')
     elif skipsubdomain==False:
-        # 跳过网络扫描
+        # 跳过网络扫描 
         print('所有扫描完成！')
