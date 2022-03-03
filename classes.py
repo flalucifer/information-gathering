@@ -322,7 +322,7 @@ class syn_scan:
                 j.border = border
         wb_save.save(filename)
 
-    # 调整单元格宽度
+    # 调整单元格宽度 
     def auto_width(self, filename):
         filename = filename + ".xlsx"
         wb_save = load_workbook(filename)
